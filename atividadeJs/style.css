@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+h1{
+    margin-left: 40%;
+    color: blue;
+}
+p{
+    margin-left: 2em;
+    text-align: justify;
+    padding: 1em;
+    color: rgb(21, 21, 24);
+}

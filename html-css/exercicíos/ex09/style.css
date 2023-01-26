@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(169, 209, 209);
+    color: black;
+}
+div#interface{
+    width: 100%;
+    background-color: #dddddd;
+    margin: 20px auto 20px auto;
+    
+}
+header#cabecalho.logoHeader{
+    position: absolute;
+    left: 780px;
+    top: 40px;
+
+}
+header#cabecalho{
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    
+
+}
+
+h1{
+    font-family:Arial ;
+    font-size: 30pt;
+    color: blue;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+    color: black;
+}
+.leng{
+    color: aliceblue;
+}
+#cabecalho{
+    width: 100%;
+    height: 100%;
+}
+.logoHeader{
+    width: 10%;
+}
+figure.foto-legenda{
+    position: relative;
+    border: 8px solid wheat;
+    box-shadow: 1px 1px 4px black;
+
+}
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+}
+figure.foto-legenda figcaption{
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.6);
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+    
+}
+figure.foto-legenda:hover figcaption{
+    opacity: 1;
+}
+/*menu*/
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+    text-transform: uppercase;
+    position: absolute;
+    top: 20vh;
+    left: 27vw;
+
+
+}
+nav#menu li{
+    display: inline-block;
+    background-color: rgba(133, 127, 127, 0.867) ;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color;
+}
+nav#menu li:hover{
+    background-color: #606060;
+}
+nav#menu h1{
+    display: none;
+     
+}
+nav#menu a{
+    color: black;
+}
+nav#menu a:hover{
+    color: #ffff;
+    text-decoration: underline;
+}
+/*seção da pagina*/
+.pagPrincipal{
+    width: 60%;
+    margin: 50px;
+}
+
+.imgBanner{
+    width: 30vw;
+    margin: 10em auto 1em auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+}
+.orixas{
+    text-align: center;
+    margin-top: 20px;
+}
+div.secDiv h1{
+    margin-top: 30px;
+}
+/*footer*/
+footer{
+    border: #606060 solid;
+    
+
+
+}
+.divFooter
